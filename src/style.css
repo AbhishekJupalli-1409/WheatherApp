@@ -1,0 +1,145 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #fa714b, #fdcf71);
+    overflow: hidden;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    height: 84vh;
+    overflow: hidden;
+
+}
+
+.grey-qo {
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: medium;
+}
+
+.left {
+    color: white;
+}
+
+.left h1 {
+    font-size: 3rem;
+}
+
+.line {
+    border-bottom: 2px solid black;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+}
+
+.left h2 {
+    font-size: 3rem;
+    margin-top: 0.9rem;
+}
+
+.left p {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+}
+
+.search-box {
+    margin-top: 2rem;
+}
+
+.search-box input {
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    width: 200px;
+    margin-right: 10px;
+}
+
+
+.grey-qo-regular {
+    font-family: "Grey Qo", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: larger;
+    margin-bottom: 2px;
+    padding-bottom: 2px;
+    padding-top: 10px;
+}
+
+
+.ibm-plex-sans-regular-italic {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.search-box button {
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: #fa714b;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+
+
+}
+
+.search-box button:hover {
+    background-color: #fdcf71;
+}
+
+.right {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.weather-card {
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.temperature {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.location {
+    font-size: 1.2rem;
+    color: #555;
+    margin-top: 0.5rem;
+}
+
+.time {
+    font-size: 1rem;
+    color: #888;
+    margin-top: 0.5rem;
+}
+
+.mode button {
+    background-color: #fa714b;
+    border: none;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.mode button:hover {
+    background-color: #fdcf71;
+}
