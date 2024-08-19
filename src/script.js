@@ -1,5 +1,5 @@
 
-const apiKey = '15e529cc05c5f793bfa491c6bf9b6e5a';
+const apiKey = 'hidden';
 
 
 const temperatureElement = document.getElementById("temperature");
